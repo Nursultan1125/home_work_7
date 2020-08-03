@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="#FFF"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/letterContact"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/letter_background"
+        android:gravity="center"
+        android:text="@string/b"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameContact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/batman"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:id="@+id/phoneContact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:text="@string/phone_template"
+            android:textSize="15sp"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+</LinearLayout>

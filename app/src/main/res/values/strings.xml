@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HomeWork7</string>
+    <string name="b">B</string>
+    <string name="batman">Batman</string>
+    <string name="phone_template">+(996) 777555-555</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="telephone">Telephone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="lanterna_verde">Lanterna Verde</string>
+    <string name="save">SAVE</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+</resources>
